@@ -8,3 +8,5 @@ const Shoes = () => {
     </div>
   )
 }
+
+export default Shoes

@@ -16,3 +16,5 @@ const Routes = (props) => (
     <Route exact path = "/shoes" component = { Shoes } />
   </Switch>
 )
+
+export default Routes
