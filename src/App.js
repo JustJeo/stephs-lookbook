@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+// Importing React
+import React from "react"
 
+// Defining App component
 function App() {
+  // What the component will return when invoked
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // The conents of the return should always be UI
+    <h1>Welcome to Steph's Lookbook!</h1>
+  )
 }
 
-export default App;
+// Export the component
+export default App
