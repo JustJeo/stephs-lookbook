@@ -1,6 +1,7 @@
 // Importing React
 import React, { useState } from "react";
 import Header from "./components/Header";
+import Footer from "./components/Footer"
 import Routes from "./config/Routes";
 import "./App.scss"
 
@@ -12,6 +13,7 @@ function App() {
     <div className = "app">
       <Header />
       <Routes />
+      <Footer />
     </div>
   )
 }
