@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.homePage {
+  margin: 20px;
+}
+
+.aboutMe, .supportMe {
+  background-color: white;
+  border: 5px solid black;
+  margin: 50px;
+  padding: 10px;
+}
