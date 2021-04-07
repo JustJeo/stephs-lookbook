@@ -7,7 +7,7 @@ footer {
     transition: color 0.3s ease;
 
     &:hover {
-      color: darken(black, 20%);
+      color: lighten(white, 20%);
     }
   }
 
